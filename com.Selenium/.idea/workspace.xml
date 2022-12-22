@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd6c482-b870-463f-8a7a-3a52e9257567" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fdd6c482-b870-463f-8a7a-3a52e9257567" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +23,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2JDzjPBELevuUSjYrfpbhvVhCFy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/trgy2/OneDrive/Masaüstü/Selenium/com.Selenium/src/drivers/selenium-java-4.7.2 (1)/selenium-support-4.7.2.jar",
+    "last_opened_file_path": "C:/Users/trgy2/OneDrive/Masaüstü/SeleniumPractice/com.Selenium/src/drivers/selenium-java-4.7.2 (1)/selenium-support-4.7.2.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -52,6 +57,54 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="day02_driverMethods" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.C03_ByLinkText">
+    <configuration name="C01_ByName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_locators.C01_ByName" />
+      <module name="com.Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03_locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_ByClassName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_locators.C02_ByClassName" />
+      <module name="com.Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03_locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_ByLinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_locators.C03_ByLinkText" />
+      <module name="com.Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03_locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.C03_ByLinkText" />
+        <item itemvalue="Application.C02_ByClassName" />
+        <item itemvalue="Application.C01_ByName" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
