@@ -58,7 +58,7 @@
       <recent name="day02_driverMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C03_ByLinkText">
+  <component name="RunManager" selected="Application.C04_AutomationExercise">
     <configuration name="C01_ByName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day03_locators.C01_ByName" />
       <module name="com.Selenium" />
@@ -98,8 +98,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C04_AutomationExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_locators.C04_AutomationExercise" />
+      <module name="com.Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03_locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C04_AutomationExercise" />
         <item itemvalue="Application.C03_ByLinkText" />
         <item itemvalue="Application.C02_ByClassName" />
         <item itemvalue="Application.C01_ByName" />
