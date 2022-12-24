@@ -58,20 +58,7 @@
       <recent name="day02_driverMethods" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C01_Xpath">
-    <configuration name="C01_ByName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_locators.C01_ByName" />
-      <module name="com.Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day03_locators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C03_RelativeLocator">
     <configuration name="C01_Xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04_xpath_cssSelector.C01_Xpath" />
       <module name="com.Selenium" />
@@ -85,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ByClassName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_locators.C02_ByClassName" />
+    <configuration name="C02_CssSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_xpath_cssSelector.C02_CssSelector" />
       <module name="com.Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03_locators.*" />
+          <option name="PATTERN" value="day04_xpath_cssSelector.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,6 +91,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day03_locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_RelativeLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_xpath_cssSelector.C03_RelativeLocator" />
+      <module name="com.Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04_xpath_cssSelector.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C03_RelativeLocator" />
+        <item itemvalue="Application.C02_CssSelector" />
         <item itemvalue="Application.C01_Xpath" />
         <item itemvalue="Application.C04_AutomationExercise" />
         <item itemvalue="Application.C03_ByLinkText" />
-        <item itemvalue="Application.C02_ByClassName" />
-        <item itemvalue="Application.C01_ByName" />
       </list>
     </recent_temporary>
   </component>
