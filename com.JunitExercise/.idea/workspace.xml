@@ -36,7 +36,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C01_Before_AfterClass">
+  <component name="RunManager" selected="JUnit.C01_HandleDropDownMenu.test01">
     <configuration name="C01_BeforeAfter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
@@ -83,8 +83,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C01_HandleDropDownMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.JunitExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07_dropdown_jsAlert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day07_dropdown_jsAlert" />
+      <option name="MAIN_CLASS_NAME" value="day07_dropdown_jsAlert.C01_HandleDropDownMenu" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_HandleDropDownMenu.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.JunitExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day07_dropdown_jsAlert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day07_dropdown_jsAlert" />
+      <option name="MAIN_CLASS_NAME" value="day07_dropdown_jsAlert.C01_HandleDropDownMenu" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_HandleDropDownMenu.test01" />
+        <item itemvalue="JUnit.C01_HandleDropDownMenu" />
         <item itemvalue="JUnit.C01_Before_AfterClass" />
         <item itemvalue="JUnit.C01_Before_AfterClass.test03" />
         <item itemvalue="JUnit.C01_BeforeAfter" />
