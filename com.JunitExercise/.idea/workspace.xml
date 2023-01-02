@@ -41,7 +41,7 @@
       <recent name="day08_handlingWindows" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C03_MoveToElement">
+  <component name="RunManager" selected="JUnit.C05_Form">
     <configuration name="C01_DragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
@@ -73,22 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_MauseActions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.JunitExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09_actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day09_actions" />
-      <option name="MAIN_CLASS_NAME" value="day09_actions.C01_MauseActions" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C03_MoveToElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
@@ -104,29 +88,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_WindowHandledeneme.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_KeyboardActions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08_handlingWindows.*" />
+          <option name="PATTERN" value="day09_actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08_handlingWindows" />
-      <option name="MAIN_CLASS_NAME" value="day08_handlingWindows.C03_WindowHandledeneme" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="day09_actions" />
+      <option name="MAIN_CLASS_NAME" value="day09_actions.C04_KeyboardActions" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_Form" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.JunitExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day09_actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day09_actions" />
+      <option name="MAIN_CLASS_NAME" value="day09_actions.C05_Form" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C05_Form" />
+        <item itemvalue="JUnit.C04_KeyboardActions" />
         <item itemvalue="JUnit.C03_MoveToElement" />
         <item itemvalue="JUnit.C01_DragAndDrop" />
         <item itemvalue="JUnit.C01_DragAndDrop.test01" />
-        <item itemvalue="JUnit.C01_MauseActions.test01" />
-        <item itemvalue="JUnit.C03_WindowHandledeneme.test01" />
       </list>
     </recent_temporary>
   </component>
