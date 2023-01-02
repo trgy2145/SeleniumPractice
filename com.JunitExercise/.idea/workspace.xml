@@ -41,22 +41,7 @@
       <recent name="day08_handlingWindows" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C03_WindowHandledeneme.test01">
-    <configuration name="C01_Before_AfterClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.JunitExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day06_beforeAfterClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day06_beforeAfterClass" />
-      <option name="MAIN_CLASS_NAME" value="day06_beforeAfterClass.C01_Before_AfterClass" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.C01_MauseActions.test01">
     <configuration name="C01_HandleDropDownMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
@@ -82,6 +67,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="day07_dropdown_jsAlert" />
       <option name="MAIN_CLASS_NAME" value="day07_dropdown_jsAlert.C01_HandleDropDownMenu" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_MauseActions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.JunitExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day09_actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day09_actions" />
+      <option name="MAIN_CLASS_NAME" value="day09_actions.C01_MauseActions" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_MauseActions.test01" />
         <item itemvalue="JUnit.C03_WindowHandledeneme.test01" />
         <item itemvalue="JUnit.C03_WindowHandle" />
         <item itemvalue="JUnit.C01_HandleDropDownMenu.test01" />
         <item itemvalue="JUnit.C01_HandleDropDownMenu" />
-        <item itemvalue="JUnit.C01_Before_AfterClass" />
       </list>
     </recent_temporary>
   </component>
