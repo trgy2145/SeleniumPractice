@@ -41,34 +41,33 @@
       <recent name="day08_handlingWindows" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C05_Form">
-    <configuration name="C01_DragAndDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C02_FileDownload">
+    <configuration name="C01_FileInputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_actions.*" />
+          <option name="PATTERN" value="day10_fileTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09_actions" />
-      <option name="MAIN_CLASS_NAME" value="day09_actions.C01_DragAndDrop" />
+      <option name="PACKAGE_NAME" value="day10_fileTests" />
+      <option name="MAIN_CLASS_NAME" value="day10_fileTests.C01_FileInputStream" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_DragAndDrop.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_FileDownload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_actions.*" />
+          <option name="PATTERN" value="day10_fileTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09_actions" />
-      <option name="MAIN_CLASS_NAME" value="day09_actions.C01_DragAndDrop" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="day10_fileTests" />
+      <option name="MAIN_CLASS_NAME" value="day10_fileTests.C02_FileDownload" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_FileDownload" />
+        <item itemvalue="JUnit.C01_FileInputStream" />
         <item itemvalue="JUnit.C05_Form" />
         <item itemvalue="JUnit.C04_KeyboardActions" />
         <item itemvalue="JUnit.C03_MoveToElement" />
-        <item itemvalue="JUnit.C01_DragAndDrop" />
-        <item itemvalue="JUnit.C01_DragAndDrop.test01" />
       </list>
     </recent_temporary>
   </component>
