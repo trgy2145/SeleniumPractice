@@ -41,7 +41,7 @@
       <recent name="day08_handlingWindows" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_FileDownload">
+  <component name="RunManager" selected="JUnit.C03_FileUpload">
     <configuration name="C01_FileInputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
@@ -72,16 +72,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_MoveToElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_FileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09_actions.*" />
+          <option name="PATTERN" value="day10_fileTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day09_actions" />
-      <option name="MAIN_CLASS_NAME" value="day09_actions.C03_MoveToElement" />
+      <option name="PACKAGE_NAME" value="day10_fileTests" />
+      <option name="MAIN_CLASS_NAME" value="day10_fileTests.C03_FileUpload" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_FileUpload" />
         <item itemvalue="JUnit.C02_FileDownload" />
         <item itemvalue="JUnit.C01_FileInputStream" />
         <item itemvalue="JUnit.C05_Form" />
         <item itemvalue="JUnit.C04_KeyboardActions" />
-        <item itemvalue="JUnit.C03_MoveToElement" />
       </list>
     </recent_temporary>
   </component>
