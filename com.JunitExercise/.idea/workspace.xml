@@ -41,7 +41,22 @@
       <recent name="day08_handlingWindows" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C03_FileUpload">
+  <component name="RunManager" selected="JUnit.C02_Cookies">
+    <configuration name="C01_ExplicityWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.JunitExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11_seleniumwaits_cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day11_seleniumwaits_cookies" />
+      <option name="MAIN_CLASS_NAME" value="day11_seleniumwaits_cookies.C01_ExplicityWait" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C01_FileInputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
@@ -52,6 +67,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="day10_fileTests" />
       <option name="MAIN_CLASS_NAME" value="day10_fileTests.C01_FileInputStream" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_Cookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.JunitExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11_seleniumwaits_cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day11_seleniumwaits_cookies" />
+      <option name="MAIN_CLASS_NAME" value="day11_seleniumwaits_cookies.C02_Cookies" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,43 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_KeyboardActions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.JunitExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09_actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day09_actions" />
-      <option name="MAIN_CLASS_NAME" value="day09_actions.C04_KeyboardActions" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C05_Form" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.JunitExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09_actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day09_actions" />
-      <option name="MAIN_CLASS_NAME" value="day09_actions.C05_Form" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C02_Cookies" />
+        <item itemvalue="JUnit.C01_ExplicityWait" />
         <item itemvalue="JUnit.C03_FileUpload" />
         <item itemvalue="JUnit.C02_FileDownload" />
         <item itemvalue="JUnit.C01_FileInputStream" />
-        <item itemvalue="JUnit.C05_Form" />
-        <item itemvalue="JUnit.C04_KeyboardActions" />
       </list>
     </recent_temporary>
   </component>
