@@ -1,18 +1,19 @@
 package day13_writeExcel_Screenshot;
 
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.WebElement;
 import utilities.ReusableMethod;
 import utilities.TestBase;
 
+import java.io.File;
 import java.io.IOException;
 
-public class C03_ScreenShotAllPage extends TestBase {
-
-
-    // "https://www.amazon.com" git
-
+public class C05_ElementSS extends TestBase {
     @Test
     public void test01() throws IOException {
         driver.get("https://www.amazon.com.tr");
@@ -27,26 +28,17 @@ public class C03_ScreenShotAllPage extends TestBase {
 
         Assert.assertTrue(actualText.contains(expectedText));
 
-        // tüm sayfanın ss alın
+        ReusableMethod.elementSs(resultText);
 
-        ReusableMethod.allPageSS(driver);
-            // methodu reusable methoda atıp istediğimizde cağrabiliriz.
-      /*  TakesScreenshot tss = (TakesScreenshot) driver;
+        // ss alacagımız elementi locate et
+        // kaydedeceğimiz dosyayı olustur.
+     /*   File elements =  new File("target/screenShot/elementSS.jpeg");
 
+        // gecici dosyayı olusturup element üzerinden ss yapalim
 
-        // resmi son olarak kaydedeceğimiz dosyayı olustur
-        File allPageSS = new File("target/screenShot/allPage.jpeg");
-
-        // tss objesini kullanıp ekran dosyasını gecici dosyaya kaydet
-
-        File tempFile =  tss.getScreenshotAs(OutputType.FILE);
-
-        // gecici dosyayı ana dosyaya ekle
-
-        FileUtils.copyFile(tempFile,allPageSS); */
+        File tempFile =  resultText.getScreenshotAs(OutputType.FILE);
+        //gecici dosyayı hedef dosyaya kaydedelim
+        FileUtils.copyFile(tempFile,elements);  */
         ReusableMethod.wait(5);
-
-
-
     }
 }

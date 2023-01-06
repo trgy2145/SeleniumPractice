@@ -4,9 +4,11 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
@@ -28,9 +30,9 @@ public class ReusableMethod {
         // resmi son olarak kaydedeceğimiz dosyayı olustur
         // burda dosya yolu dinamic değil ,herzaman en son calıstırılanı kaydeder bundan
         // krtulmak icin tarih opsiyonu ekleyebilirsin
-        LocalTime ltd =  LocalTime.now();
+       LocalTime ltd =  LocalTime.now();
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
-        String date = ltd.format(dtf);
+         String date = ltd.format(dtf);
         String filePath = "target/screenShot/allPage"+date+".jpeg";
         File allPageSS = new File(filePath);
 
@@ -42,6 +44,25 @@ public class ReusableMethod {
 
         try {
             FileUtils.copyFile(tempFile,allPageSS);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void elementSs(WebElement element) {
+        LocalDateTime ltd =  LocalDateTime.now();
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
+        String date = ltd.format(dtf);
+        String filePath = "target/screenShot/elementSS"+date+".jpeg";
+
+        File elements =  new File(filePath);
+
+        // gecici dosyayı olusturup element üzerinden ss yapalim
+
+        File tempFile =  element.getScreenshotAs(OutputType.FILE);
+        //gecici dosyayı hedef dosyaya kaydedelim
+        try {
+            FileUtils.copyFile(tempFile,elements);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

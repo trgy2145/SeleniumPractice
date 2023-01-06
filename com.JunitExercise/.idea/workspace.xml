@@ -37,41 +37,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\trgy2\OneDrive\Masaüstü\SeleniumPractice\com.JunitExercise\src\test\java\day05_junitFramework" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="day08_handlingWindows" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C03_ScreenShotAllPage.test01">
-    <configuration name="C01_WebTables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.JunitExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12_webtables_excel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day12_webtables_excel" />
-      <option name="MAIN_CLASS_NAME" value="day12_webtables_excel.C01_WebTables" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_Cookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.JunitExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day11_seleniumwaits_cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day11_seleniumwaits_cookies" />
-      <option name="MAIN_CLASS_NAME" value="day11_seleniumwaits_cookies.C02_Cookies" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.C06_JsExecuter">
     <configuration name="C03_ScreenShotAllPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
@@ -103,16 +76,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_WebTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_SsAllPage2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11_seleniumwaits_cookies.*" />
+          <option name="PATTERN" value="day13_writeExcel_Screenshot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11_seleniumwaits_cookies" />
-      <option name="MAIN_CLASS_NAME" value="day11_seleniumwaits_cookies.C03_WebTable" />
+      <option name="PACKAGE_NAME" value="day13_writeExcel_Screenshot" />
+      <option name="MAIN_CLASS_NAME" value="day13_writeExcel_Screenshot.C04_SsAllPage2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_ElementSS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.JunitExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day13_writeExcel_Screenshot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day13_writeExcel_Screenshot" />
+      <option name="MAIN_CLASS_NAME" value="day13_writeExcel_Screenshot.C05_ElementSS" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C06_JsExecuter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.JunitExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day13_writeExcel_Screenshot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day13_writeExcel_Screenshot" />
+      <option name="MAIN_CLASS_NAME" value="day13_writeExcel_Screenshot.C06_JsExecuter" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C03_ScreenShotAllPage.test01" />
+        <item itemvalue="JUnit.C06_JsExecuter" />
+        <item itemvalue="JUnit.C05_ElementSS" />
         <item itemvalue="JUnit.C03_ScreenShotAllPage" />
-        <item itemvalue="JUnit.C01_WebTables" />
-        <item itemvalue="JUnit.C03_WebTable" />
-        <item itemvalue="JUnit.C02_Cookies" />
+        <item itemvalue="JUnit.C04_SsAllPage2" />
+        <item itemvalue="JUnit.C03_ScreenShotAllPage.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -149,5 +152,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/day13_writeExcel_Screenshot/C06_JsExecuter.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
