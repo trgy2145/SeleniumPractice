@@ -41,17 +41,17 @@
       <recent name="day08_handlingWindows" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C03_WebTable">
-    <configuration name="C01_ExplicityWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C03_ScreenShotAllPage.test01">
+    <configuration name="C01_WebTables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11_seleniumwaits_cookies.*" />
+          <option name="PATTERN" value="day12_webtables_excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11_seleniumwaits_cookies" />
-      <option name="MAIN_CLASS_NAME" value="day11_seleniumwaits_cookies.C01_ExplicityWait" />
+      <option name="PACKAGE_NAME" value="day12_webtables_excel" />
+      <option name="MAIN_CLASS_NAME" value="day12_webtables_excel.C01_WebTables" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,32 +72,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_FileDownload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_ScreenShotAllPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10_fileTests.*" />
+          <option name="PATTERN" value="day13_writeExcel_Screenshot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day10_fileTests" />
-      <option name="MAIN_CLASS_NAME" value="day10_fileTests.C02_FileDownload" />
+      <option name="PACKAGE_NAME" value="C13_writeExcel_Screenshot" />
+      <option name="MAIN_CLASS_NAME" value="day13_writeExcel_Screenshot.C03_ScreenShotAllPage" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_FileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_ScreenShotAllPage.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.JunitExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10_fileTests.*" />
+          <option name="PATTERN" value="day13_writeExcel_Screenshot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day10_fileTests" />
-      <option name="MAIN_CLASS_NAME" value="day10_fileTests.C03_FileUpload" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="C13_writeExcel_Screenshot" />
+      <option name="MAIN_CLASS_NAME" value="day13_writeExcel_Screenshot.C03_ScreenShotAllPage" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_ScreenShotAllPage.test01" />
+        <item itemvalue="JUnit.C03_ScreenShotAllPage" />
+        <item itemvalue="JUnit.C01_WebTables" />
         <item itemvalue="JUnit.C03_WebTable" />
         <item itemvalue="JUnit.C02_Cookies" />
-        <item itemvalue="JUnit.C01_ExplicityWait" />
-        <item itemvalue="JUnit.C03_FileUpload" />
-        <item itemvalue="JUnit.C02_FileDownload" />
       </list>
     </recent_temporary>
   </component>
