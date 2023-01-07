@@ -25,12 +25,13 @@ public class C03_PozitifTest {
         qualitydemyPage.passwordBox.sendKeys("31488081");
 
         // login e bas ve login ol
+        qualitydemyPage.acceptCookies.click();
         qualitydemyPage.loginButton.click();
 
         // login oldugunu test et
         Assert.assertTrue(qualitydemyPage.succesfullyLogin.isDisplayed());
 
-        
+
         ReusableMethod.wait(5);
 
         Driver.closeDriver();

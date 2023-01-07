@@ -18,8 +18,12 @@ public class QualitydemyPage {
     @FindBy(id = "login-password")
     public WebElement passwordBox;
 
-    @FindBy(xpath = "//button[text()='Login']")
+    @FindBy(xpath = "(//button[@type='submit'])[2]")
     public WebElement loginButton;
+
+
+    @FindBy(xpath = "//a[text()='Accept']")
+    public WebElement acceptCookies;
 
     @FindBy(linkText = "My courses")
     public WebElement succesfullyLogin;
