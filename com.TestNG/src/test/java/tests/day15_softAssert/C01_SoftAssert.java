@@ -1,11 +1,10 @@
-package tests.day15;
+package tests.day15_softAssert;
 
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.AmazonPage;
 import utilities.Driver;
-import utilities.ReusableMethod;
 
 public class C01_SoftAssert {
     @Test

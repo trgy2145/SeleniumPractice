@@ -18,7 +18,7 @@ public class QualitydemyPage {
     @FindBy(id = "login-password")
     public WebElement passwordBox;
 
-    @FindBy(xpath = "(//button[@type='submit'])[2]")
+    @FindBy(xpath = "//button[@class='btn red radius-5 mt-4 w-100']")
     public WebElement loginButton;
 
 

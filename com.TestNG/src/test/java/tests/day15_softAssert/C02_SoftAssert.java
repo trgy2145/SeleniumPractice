@@ -1,6 +1,5 @@
-package tests.day15;
+package tests.day15_softAssert;
 
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
@@ -15,7 +14,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class C02_SoftAssert {
-    @Test
+    @Test(groups = "deneme1")
     public void test01(){
 
         // "http://zero.webappsecurity.com/"git

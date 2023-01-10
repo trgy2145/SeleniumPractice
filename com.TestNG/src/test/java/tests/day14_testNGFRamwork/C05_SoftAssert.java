@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class C05_SoftAssert {
-    @Test
+    @Test(groups = "deneme1")
     public void test01(){
 
         // 1.adim softAssert objesi olusturmak

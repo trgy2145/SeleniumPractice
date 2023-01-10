@@ -16,7 +16,7 @@ public class C04_HardAssert {
         ve failed olan assertion varsa raporla dedigimiz satirda calismayi durdurur
      */
 
-    @Test
+    @Test(groups = "deneme1")
     public void test01(){
 
         Assert.assertTrue(6>4);

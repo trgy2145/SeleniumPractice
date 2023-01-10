@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="execute group">
+    <test name="specific groups execute">
+        <groups>
+            <run>
+                <include name="deneme1"/>
+            </run>
+        </groups>
+       <packages>
+           <package name="tests.day14_testNGFRamwork"></package>
+           <package name="tests.day15_softAssert"></package>
+       </packages>
+    </test>
+</suite>
